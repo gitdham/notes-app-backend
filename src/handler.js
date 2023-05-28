@@ -55,7 +55,7 @@ const addNoteHandler = (request, h) => {
 
   const response = h.response({
     status: 'success',
-    message: 'Note berhasi ditambahkan',
+    message: 'Note berhasil ditambahkan',
     data: {
       noteId: id,
     }
@@ -90,7 +90,7 @@ const editNoteByIdHandler = (request, h) => {
 
   const response = h.response({
     status: 'success',
-    message: 'Note berhasi diperbarui'
+    message: 'Note berhasil diperbarui'
   })
   response.code(200)
   return response
